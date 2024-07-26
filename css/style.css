@@ -728,16 +728,15 @@ span {
   }
   .home-content {
     max-width: 45rem;
-    
   }
-  .home-content h1{
+  .home-content h1 {
     display: flex;
     flex-direction: column;
   }
   .home-imgHover {
     pointer-events: none;
     background: var(--bg-color);
-    opacity: 0.3;
+    opacity: 0.6;
   }
 }
 
@@ -749,70 +748,75 @@ span {
     display: flex;
     flex-direction: column;
   }
-  .home-sci{
+  .home-sci {
     width: 160px;
   }
-  .home-sci a{
+  .home-sci a {
     width: 38px;
     height: 38px;
   }
-
 }
 
-
-@media (max-width: 462px){
-  .home-content h1{
+@media (max-width: 462px) {
+  .home-content h1 {
     font-size: 5.2rem;
   }
-  .education{
-    padding: 10rem 3% 6rem ;
+  .education {
+    padding: 10rem 3% 6rem;
   }
-  .contact form .input-box .input-field{
+  .contact form .input-box .input-field {
     width: 100%;
   }
-  .footer{
+  .footer {
     flex-direction: column-reverse;
   }
-  .footer p{
+  .footer p {
     margin-top: 2rem;
     text-align: center;
   }
 }
 
-@media (max-width: 371px){
-  .home{
+@media (max-width: 371px) {
+  .home {
     justify-content: center;
   }
-  .home-content{
+  .home-content {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .home-content h1{
+  .home-content h1 {
     font-size: 5rem;
   }
 }
 
 /* Animation */
 @keyframes homeBgText {
-  0%,10%,100% {
+  0%,
+  10%,
+  100% {
     background-position: -33rem 0;
   }
-  65%,85% {
+  65%,
+  85% {
     background-position: 0 0;
   }
 }
 
 @keyframes homeCursorText {
-  0%,10%,100% {
+  0%,
+  10%,
+  100% {
     width: 0;
   }
-  65%,85% {
+  65%,
+  85% {
     width: 100%;
     opacity: 1;
   }
-  75%,81% {
+  75%,
+  81% {
     opacity: 0;
   }
 }
