@@ -865,7 +865,7 @@ section:nth-child(odd) .animate.scroll,
   }
   .home{
     
-    background-position-x: 65%;
+    background-position-x: 60%;
   }
   .home-content h1 {
     display: flex;
