@@ -28,6 +28,26 @@ body {
   color: var(--text-color);
 }
 
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 10px;
+  border: 3px solid var(--second-bg-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--second-bg-color);
+}
+
+
 .header {
   position: fixed;
   top: 0;
@@ -606,7 +626,7 @@ span {
   color: var(--text-color);
 }
 
-/* .contact form .focus {
+.contact form .focus {
   position: absolute;
   width: 0;
   height: 100%;
@@ -623,7 +643,7 @@ span {
 .contact form .textarea-field textarea:focus ~ .focus,
 .contact form .textarea-field textarea:valid ~ .focus {
   width: 100%;
-} */
+}
 
 .contact form .textarea-field {
   margin: 0.8rem 0 2.7rem;
