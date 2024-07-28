@@ -863,6 +863,10 @@ section:nth-child(odd) .animate.scroll,
   html {
     font-size: 50%;
   }
+  .home{
+    
+    background-position-x: 65%;
+  }
   .home-content h1 {
     display: flex;
     flex-direction: column;
@@ -898,7 +902,7 @@ section:nth-child(odd) .animate.scroll,
 @media (max-width: 371px) {
   .home {
     justify-content: center;
-    background: none;
+    /* background: none; */
   }
   .home-content {
     text-align: center;
