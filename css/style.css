@@ -47,7 +47,6 @@ body {
   background-color: var(--second-bg-color);
 }
 
-
 .header {
   position: fixed;
   top: 0;
@@ -456,7 +455,7 @@ span {
 }
 
 .education-content .content p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   padding-top: 0.5rem;
 }
 
@@ -746,7 +745,7 @@ span {
 }
 
 section:nth-child(odd) .animate.scroll,
-.footer .animate.scroll{
+.footer .animate.scroll {
   background: var(--second-bg-color);
 }
 
@@ -785,8 +784,8 @@ section:nth-child(odd) .animate.scroll,
   }
 }
 
-@media (max-width: 850px){
-  .animate.home-img{
+@media (max-width: 850px) {
+  .animate.home-img {
     width: 55%;
   }
 }
@@ -863,8 +862,7 @@ section:nth-child(odd) .animate.scroll,
   html {
     font-size: 50%;
   }
-  .home{
-    
+  .home {
     background-position-x: 60%;
   }
   .home-content h1 {
